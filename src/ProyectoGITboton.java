@@ -49,5 +49,14 @@ public class ProyectoGITboton extends JFrame {
 		});
 		btnMensaje.setBounds(157, 110, 85, 21);
 		contentPane.add(btnMensaje);
+		
+		JButton btnNewButton = new JButton("Mensaje2");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null, "Hola Soy Benjamin");
+			}
+		});
+		btnNewButton.setBounds(157, 147, 85, 21);
+		contentPane.add(btnNewButton);
 	}
 }
