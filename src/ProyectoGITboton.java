@@ -58,5 +58,14 @@ public class ProyectoGITboton extends JFrame {
 		});
 		btnNewButton.setBounds(157, 147, 85, 21);
 		contentPane.add(btnNewButton);
+		
+		JButton btnMensajeEclipse = new JButton("Mensaje 3");
+		btnMensajeEclipse.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null, "Hola desde rama de Eclipsse");
+			}
+		});
+		btnMensajeEclipse.setBounds(157, 186, 89, 23);
+		contentPane.add(btnMensajeEclipse);
 	}
 }
