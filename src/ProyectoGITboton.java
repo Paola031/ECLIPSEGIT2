@@ -67,5 +67,9 @@ public class ProyectoGITboton extends JFrame {
 		});
 		btnMensajeEclipse.setBounds(157, 186, 89, 23);
 		contentPane.add(btnMensajeEclipse);
+		
+		JButton btnNewButton_1 = new JButton("New button");
+		btnNewButton_1.setBounds(157, 227, 89, 23);
+		contentPane.add(btnNewButton_1);
 	}
 }
