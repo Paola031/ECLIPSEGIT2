@@ -69,6 +69,11 @@ public class ProyectoGITboton extends JFrame {
 		contentPane.add(btnMensajeEclipse);
 		
 		JButton btnNewButton_1 = new JButton("New button");
+		btnNewButton_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null,"Hola boton con Merge");
+			}
+		});
 		btnNewButton_1.setBounds(157, 227, 89, 23);
 		contentPane.add(btnNewButton_1);
 	}
